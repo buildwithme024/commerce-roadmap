@@ -26,6 +26,24 @@ header {
 ul {
   padding-left: 20px;
 }
+/* ===== NAVBAR STYLES ===== */
+
+.navbar {
+  background: #1f2a37;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
 
 footer {
   text-align: center;
