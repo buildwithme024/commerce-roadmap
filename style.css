@@ -1,91 +1,124 @@
-/* GLOBAL RESET */
+/* ===== GLOBAL RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-/* BODY */
+/* ===== BODY ===== */
 body {
-  background-color: #f7f9fc;
-  color: #222;
-  line-height: 1.7;
+  background-color: #f8fafc;
+  color: #1f2933;
+  line-height: 1.75;
 }
 
-/* NAVBAR */
+/* ===== NAVBAR ===== */
 .navbar {
   background-color: #0f172a;
-  padding: 15px 20px;
+  padding: 16px 28px;
   display: flex;
-  gap: 20px;
+  gap: 24px;
+  align-items: center;
 }
 
 .navbar a {
-  color: #ffffff;
+  color: #e5e7eb;
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.95rem;
 }
 
 .navbar a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
-/* HEADER */
+/* ===== HEADER / HERO ===== */
 header {
   text-align: center;
-  padding: 60px 20px;
-  background-color: #e2e8f0;
+  padding: 70px 20px;
+  background: linear-gradient(
+    135deg,
+    #e0e7ff,
+    #f8fafc
+  );
 }
 
 header h1 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+  font-size: 2.4rem;
+  color: #0f172a;
+  margin-bottom: 12px;
 }
 
 header p {
-  font-size: 1.1rem;
-  color: #444;
+  font-size: 1.15rem;
+  color: #475569;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-/* SECTIONS */
+/* ===== CONTENT SECTIONS ===== */
 .course {
-  background: #ffffff;
+  background-color: #ffffff;
   max-width: 900px;
-  margin: 30px auto;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin: 32px auto;
+  padding: 32px;
+  border-radius: 10px;
+  border-left: 5px solid #2563eb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
 .course h2 {
-  margin-bottom: 15px;
+  font-size: 1.5rem;
   color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.course p {
+  color: #374151;
+  margin-bottom: 10px;
 }
 
 .course ul,
 .course ol {
-  padding-left: 20px;
+  padding-left: 22px;
+  margin-top: 10px;
 }
 
 .course li {
   margin-bottom: 8px;
+  color: #1f2933;
 }
 
-/* LINKS */
-a {
+/* ===== LINKS ===== */
+.course a {
   color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #1d4ed8;
+.course a:hover {
+  text-decoration: underline;
 }
 
-/* FOOTER */
+/* ===== HIGHLIGHT BOX (OPTIONAL USE) ===== */
+.highlight {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin-top: 16px;
+  color: #1e3a8a;
+  font-size: 0.95rem;
+}
+
+/* ===== FOOTER ===== */
 footer {
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
   background-color: #0f172a;
-  color: #ffffff;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 22px;
+  margin-top: 50px;
+  font-size: 0.9rem;
 }
