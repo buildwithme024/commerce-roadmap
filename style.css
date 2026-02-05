@@ -155,3 +155,26 @@ footer {
 .career-card a {
   font-weight: bold;
 }
+/* COMPARISON TABLE */
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.compare-table th {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 12px;
+  text-align: left;
+}
+
+.compare-table td {
+  padding: 12px;
+  background-color: #f8fafc;
+}
+
+.compare-table tr:nth-child(even) td {
+  background-color: #eef2f7;
+}
+
