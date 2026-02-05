@@ -122,3 +122,36 @@ footer {
   margin-top: 50px;
   font-size: 0.9rem;
 }
+/* CAREER CARDS */
+.career-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.career-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.career-card:hover {
+  transform: translateY(-5px);
+}
+
+.career-card h3 {
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.career-card p {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.career-card a {
+  font-weight: bold;
+}
